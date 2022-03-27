@@ -13,6 +13,13 @@ license = "MIT"
 keywords = []
 categories = []
 
+exclude = [
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+]
+
+
 [dependencies]
 futures-util = "0.3"
 http = "0.2"
