@@ -1,6 +1,6 @@
 [package]
 name = "tower-http-metrics"
-version = "0.0.1-dev"
+version = "0.0.1"
 authors = ["Andrew Fuchs"]
 edition = "2021"
 rust-version = "1.59"
