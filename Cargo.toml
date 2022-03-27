@@ -1,0 +1,31 @@
+[package]
+name = "tower-http-metrics"
+version = "0.0.1-dev"
+authors = ["Andrew Fuchs"]
+edition = "2021"
+rust-version = "1.59"
+description = "Tower middleware for tracking HTTP server metrics"
+documentation = "https://github.com/andrew-fuchs/tower-http-metrics#readme"
+readme = "./README.md"
+homepage = "https://github.com/andrew-fuchs/tower-http-metrics#readme"
+repository = "https://github.com/andrew-fuchs/tower-http-metrics"
+license = "MIT"
+keywords = []
+categories = []
+
+[dependencies]
+futures-util = "0.3"
+http = "0.2"
+http-body = "0.4"
+metrics = "0.18"
+pin-project = "1.0"
+tower = { version = "0.4", optional = true }
+tower-layer = "0.3"
+tower-service = "0.3"
+
+[dev-dependencies]
+
+[features]
+default = ["server", "util"]
+server = []
+util = ["tower"]
