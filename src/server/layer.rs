@@ -2,6 +2,7 @@ use tower_layer::Layer;
 
 use super::HttpServerMetricsService;
 
+#[derive(Clone)]
 pub struct HttpServerMetricsLayer;
 
 impl HttpServerMetricsLayer {

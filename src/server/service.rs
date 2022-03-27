@@ -10,6 +10,7 @@ use crate::util::label_from_method;
 
 use super::body::InstrumentedBody;
 
+#[derive(Clone)]
 pub struct HttpServerMetricsService<S> {
     inner: S,
 }
