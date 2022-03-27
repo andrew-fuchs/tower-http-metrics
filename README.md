@@ -1,5 +1,8 @@
 # tower-http-metrics
 
+![Crates.io](https://img.shields.io/crates/v/tower-http-metrics)
+![docs.rs](https://img.shields.io/docsrs/tower-http-metrics)
+![Crates.io](https://img.shields.io/crates/l/tower-http-metrics)
 [![CI](https://github.com/andrew-fuchs/tower-http-metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/andrew-fuchs/tower-http-metrics/actions/workflows/ci.yml)
 
 A [Tower](https://github.com/tower-rs/tower) middleware that tracks
