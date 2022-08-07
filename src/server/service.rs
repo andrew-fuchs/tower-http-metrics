@@ -6,9 +6,9 @@ use http::Response as HttpResponse;
 use tower_service::Service;
 
 use crate::server::future::InstrumentedFuture;
-use crate::util::label_from_method;
 
 use super::body::InstrumentedBody;
+use super::label_from_method;
 
 #[derive(Clone)]
 pub struct HttpServerMetricsService<S> {

@@ -1,7 +1,7 @@
 #[cfg(feature = "server")]
 pub use self::server::{HttpServerMetricsLayer, HttpServerMetricsService};
 #[cfg(feature = "util")]
-pub use self::util::ServiceBuilderExt;
+pub use self::util::HttpMetricsServiceBuilderExt;
 
 #[cfg(feature = "server")]
 pub mod server;
